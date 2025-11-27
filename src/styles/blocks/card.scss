@@ -120,7 +120,7 @@
     color: $color-link-white;
     background-color: $color-link-blue-accent;
 
-    transition: transform 300ms;
+    transition: background-color 300ms, color 300ms;
 
     &:hover {
       color: $color-link-blue-accent;
