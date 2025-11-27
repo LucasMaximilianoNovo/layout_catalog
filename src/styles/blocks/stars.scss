@@ -2,7 +2,7 @@
 
 .stars {
   width: 96px;
-  height: 16px;
+  height: $stars-size;
   gap: 4px;
 
   display: flex;
@@ -13,8 +13,8 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    height: 16px;
-    width: 16px;
+    height: $stars-size;
+    width: $stars-size;
   }
 
   @for $i from 1 through 5 {

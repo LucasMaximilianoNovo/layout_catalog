@@ -34,6 +34,8 @@
   text-align: center;
 
   color: $color-primary;
+
+  transition: transform 300ms;
 }
 
 .nav__link:hover {

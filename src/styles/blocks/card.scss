@@ -7,10 +7,10 @@
   padding: 32px 16px 16px;
 
   height: 408px;
-  width: 200px;
+  width: $card-size;
   box-sizing: border-box;
   border: 1px solid $color-card-border;
-  border-radius: 5px;
+  border-radius: $border-radius-size;
 
   transition: transform 300ms;
 
@@ -45,7 +45,7 @@
     margin-bottom: 16px;
     text-align: start;
 
-    color: $color-secundary;
+    color: $color-secondary;
   }
 
   &__review {
@@ -60,7 +60,7 @@
     &-text {
       font-size: 10px;
       font-weight: 400;
-      color: $color-secundary;
+      color: $color-secondary;
       margin: 0;
     }
   }
@@ -83,7 +83,7 @@
       display: flex;
       align-items: center;
 
-      color: $color-secundary;
+      color: $color-secondary;
     }
 
     &-cost {
@@ -108,7 +108,7 @@
     justify-content: center;
     text-align: center;
 
-    border-radius: 5px;
+    border-radius: $border-radius-size;
     border: 1px solid transparent;
     box-sizing: border-box;
 
@@ -119,6 +119,8 @@
 
     color: $color-link-white;
     background-color: $color-link-blue-accent;
+
+    transition: transform 300ms;
 
     &:hover {
       color: $color-link-blue-accent;
@@ -132,7 +134,6 @@
 
     .card__title {
       color: $color-primary-hover;
-      transition: color 300ms;
     }
   }
 }
